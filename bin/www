@@ -18,6 +18,8 @@ var log = log4js.getLogger("startup")
 
 var app = require('../app');
 
+log.debug('process.env:', process.env);
+
 /**
  * Get port from environment and store in Express.
  */
